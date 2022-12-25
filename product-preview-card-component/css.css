@@ -1,0 +1,52 @@
+body {
+    background: beige;
+}
+div.main {
+    margin: auto;
+    height: fit-content;
+    width: 650px;
+    border-radius:12px;
+    background: white;
+}
+div.secondary{
+    width: 50%;
+    float: right;
+    padding: 10px 30px 10px 30px;
+    box-sizing: border-box;
+}
+img.product {
+    width: 50%;
+    height: auto;
+    border-radius: 12px 0 0 12px;
+}
+h3{
+    color: hsl(0, 0%, 50%);
+}
+p.text{
+    color: hsl(0, 0%, 50%);
+}
+p.price{
+    display: inline;
+    font-size: 4vh;
+    font-weight: 1000;
+    margin-right: 10px;
+    color: green;
+}
+p.sale{
+    display: inline;
+    text-decoration: line-through;
+}
+
+button{
+    margin-top: 30px;
+    height: 50px;
+    width: 100%;
+    background: green;
+    color: white;
+    border: none;
+    font-size: 25px;
+    border-radius: 12px;
+}
+button:hover{
+    background: darkgreen;
+}
